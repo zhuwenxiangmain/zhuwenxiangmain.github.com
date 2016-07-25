@@ -1,0 +1,24 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>无标题文档</title>
+<style>
+	*{margin:0; padding:0;}
+	@keyframes test{
+		from{left:0;}
+		to{left:-113px;}
+	}
+	.box{width:113px; height:400px; margin:100px auto; border:1px solid blue; position:relative; overflow:hidden;}
+	.box div{ position:absolute; top:0; left:0; width:400px; height:400px; background:-webkit-repeating-linear-gradient(-45deg,orange 0px, orange 10px,#fff 10px, #fff 20px,aqua 20px, aqua 30px, #fff 30px ,#fff 40px);
+		-webkit-animation:test 1s linear infinite;
+	}
+</style>
+</head>
+
+<body>
+    <div class="box">
+        <div></div>
+    </div>
+</body>
+</html>
